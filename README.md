@@ -1,8 +1,10 @@
 # 🌲 Focus Forest
 
+[✨ **Live Demo**](https://focus-forest-jet.vercel.app)
+
 A minimalist, atmospheric Pomodoro timer and schedule planner web application designed to help you stay focused, relaxed, and organized. Built with React and Vite.
 
-![Focus Forest Preview](https://img.shields.io/badge/status-active-success.svg) ![React](https://img.shields.io/badge/React-18+-blue.svg) ![Vite](https://img.shields.io/badge/Vite-Fast-orange.svg)
+![Focus Forest Preview](https://img.shields.io/badge/status-active-success.svg) ![React](https://img.shields.io/badge/React-18+-blue.svg) ![Vite](https://img.shields.io/badge/Vite-Fast-orange.svg) ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black.svg)
 
 ---
 
