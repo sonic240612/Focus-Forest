@@ -49,7 +49,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* 좌우 대칭이 완벽한 380px 380px 380px 그리드로 중앙 타이머가 100% 수학적 정중앙에 위치하도록 설계 */
 .layout-container {
   display: grid;
   grid-template-columns: 380px 380px 380px;
@@ -64,7 +63,7 @@ body {
 .sound-panel {
   display: flex;
   flex-direction: column;
-  width: 380px; /* 우측 타임라인 칸과 완전히 동일한 넓이 */
+  width: 380px;
 }
 
 .left-panel {
@@ -123,12 +122,15 @@ body {
 }
 
 .timer {
-  font-size: 4.5rem;
+  font-size: 4.2rem; /* 살짝 최적화된 사이즈 */
   font-weight: 300;
-  letter-spacing: 0.05em;
+  letter-spacing: normal; /* 잘림 현상 방지를 위해 letter-spacing 표준화 */
   font-variant-numeric: tabular-nums;
   color: #d4edd9;
-  line-height: 1;
+  line-height: 1.1;
+  padding: 0 0.25rem;
+  width: 100%;
+  overflow: visible;
 }
 
 .controls {
@@ -436,7 +438,6 @@ body {
 }
 
 .timeline-round {
-  content: '';
   color: #e2f2e5;
   font-weight: 500;
   letter-spacing: 0.05em;
